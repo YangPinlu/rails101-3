@@ -66,7 +66,7 @@ class GroupsController < ApplicationController
 			current_user.quit!(@group)
 			flash[:notice] = "已退出本讨论版"
 		else
-			flash[:warning] = "你已不是本讨论版成员了，怎么退出 XD"、
+			flash[:warning] = "你已不是本讨论版成员了，怎么退出 XD"
 		end
 
 		redirect_to group_path(@group)
