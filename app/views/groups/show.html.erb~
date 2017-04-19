@@ -30,4 +30,7 @@
 		</tbody>
 	</table>
 
+	<div class="text_center">
+		<%= will_paginate @posts %>
+	</div>
 </div>
